@@ -3,11 +3,9 @@
 	import '../app.css'
 </script>
 
-<div class="bg-red-400">
+<div class="flex justify-center">
 	<Header />
-
 	<main>
 		<slot />
 	</main>
-
 </div>
