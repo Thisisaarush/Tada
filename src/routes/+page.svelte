@@ -47,6 +47,7 @@
 		tasksData[taskIndex].items.push(item);
 		tasksData = tasksData;
 	}
+	
 </script>
 
 <svelte:head>
