@@ -1,0 +1,13 @@
+<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="streamline:interface-time-hour-glass-hourglass-loading-measure-clock-time" clip-path="url(#clip0_113_201)">
+<g id="Group">
+<path id="Vector" d="M18.75 6.25003C18.75 7.90763 18.0915 9.49734 16.9194 10.6694C15.7473 11.8415 14.1576 12.5 12.5 12.5C10.8424 12.5 9.25269 11.8415 8.08058 10.6694C6.90848 9.49734 6.25 7.90763 6.25 6.25003V0.892883H18.75V6.25003Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M2.67859 0.892883H22.3214M2.67859 24.1072H22.3214M18.75 18.75C18.75 17.0924 18.0915 15.5027 16.9194 14.3306C15.7473 13.1585 14.1576 12.5 12.5 12.5C10.8424 12.5 9.2527 13.1585 8.0806 14.3306C6.9085 15.5027 6.25002 17.0924 6.25002 18.75V24.1072H18.75V18.75Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_113_201">
+<rect width="25" height="25" fill="white"/>
+</clipPath>
+</defs>
+</svg>
