@@ -2,10 +2,10 @@
 	import TaskTitle from './TaskTitle.svelte'
 	import AddTask from './AddTask.svelte'
 	import Task from './Task.svelte'
+	import TaskDetails from './TaskDetails.svelte'
 
+	// icons
   import tickIcon from '$lib/assets/tick.svg'
-  import doingIcon from '$lib/assets/doing.svg'
-  import greenTickIcon from '$lib/assets/greenTick.svg'
 
 	let tasksData = [
 		{
@@ -67,4 +67,5 @@
 			<AddTask />
 		</div>
 	{/each}
+	<TaskDetails />
 </section>
