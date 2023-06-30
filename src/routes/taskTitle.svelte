@@ -1,5 +1,6 @@
 <script lang='ts'>
-  import { taskDetailsVisible } from './stores.js'
+  // states
+  import { taskDetailsVisible, currentTaskBlock } from './stores.js'
 
   // icons
   import addIcon from '$lib/assets/add.svg'
@@ -10,6 +11,7 @@
 
   const handleAddTask = () => {
     taskDetailsVisible.set(true)
+    currentTaskBlock.set(title)
   }
 </script>
 

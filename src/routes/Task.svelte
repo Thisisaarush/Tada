@@ -17,15 +17,17 @@
 </script>
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
-<div id={id} class='flex flex-col justify-between items-center border bg-white rounded-lg p-4 capitalize gap-12' draggable={true} on:dragstart={(e) => handleDragStart(e, taskIndex, itemIndex)} >
+<div id={id} class='flex flex-col justify-center items-start border bg-white rounded-lg p-4 capitalize gap-10' draggable={true} on:dragstart={(e) => handleDragStart(e, taskIndex, itemIndex)} >
   <div class='flex items-start justify-center gap-4'>
-    <img src={icon} alt="tick" class='mt-2'>
+    <img src={icon} alt="tick">
     <div class='flex flex-col gap-2'>
       <p class='font-semibold line-clamp-2'>{title}</p>
-      <span class='flex gap-2'>
-        { #each tags as tag }
-        <p class={`py-1 px-2 bg-black text-white rounded-lg text-sm`}>{tag}</p>
-        {/each}
+      <span class='flex gap-2 flex-wrap'>
+        {#if tags.length > 0}
+          {#each tags as tag }
+          <p class={`py-1 px-2 bg-black text-white rounded-lg text-sm`}>{tag}</p>
+          {/each}
+        {/if}
       </span>
     </div>
   </div>
