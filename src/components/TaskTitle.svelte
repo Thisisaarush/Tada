@@ -1,6 +1,6 @@
 <script lang='ts'>
   // states
-  import { taskDetailsVisible, currentTaskBlock, editingCurrentTask, titleValue, tagsValue, priorityValue } from './stores.js'
+  import { taskDetailsVisible, currentTaskBlock, editingCurrentTask, titleValue, tagsValue, priorityValue } from '../routes/stores.js'
 
   // icons
   import addIcon from '$lib/assets/add.svg'

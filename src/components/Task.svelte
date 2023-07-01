@@ -3,7 +3,7 @@
   import moment from 'moment'
 
   // states
-  import { tasksData, taskDetailsVisible, titleValue, tagsValue, priorityValue, timeValue, currentTaskId, editingCurrentTask } from './stores.js'
+  import { tasksData, taskDetailsVisible, titleValue, tagsValue, priorityValue, timeValue, currentTaskId, editingCurrentTask } from '../routes/stores.js'
 
   // props
   export let id: string;

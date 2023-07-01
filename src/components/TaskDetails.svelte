@@ -7,7 +7,7 @@
   import greenTick from '$lib/assets/greenTick.svg'
 
   // states
-  import { taskDetailsVisible, editingCurrentTask, tasksData, currentTaskBlock, titleValue, tagsValue, priorityValue, timeValue, currentTaskId } from './stores.js'
+  import { taskDetailsVisible, editingCurrentTask, tasksData, currentTaskBlock, titleValue, tagsValue, priorityValue, timeValue, currentTaskId } from '../routes/stores.js'
 
   const handleOverlay = () => {
     taskDetailsVisible.set(false)

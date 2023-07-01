@@ -3,7 +3,7 @@
   import addIcon from '$lib/assets/add.svg'
 
   // states
-  import { taskDetailsVisible, currentTaskBlock, editingCurrentTask, titleValue, tagsValue, priorityValue } from './stores.js'
+  import { taskDetailsVisible, currentTaskBlock, editingCurrentTask, titleValue, tagsValue, priorityValue } from '../routes/stores.js'
 
   // props
   export let title: string

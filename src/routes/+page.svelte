@@ -7,10 +7,10 @@
   import greenTick from '$lib/assets/greenTick.svg'
 
 	// components
-	import TaskTitle from './TaskTitle.svelte'
-	import AddTask from './AddTask.svelte'
-	import Task from './Task.svelte'
-	import TaskDetails from './TaskDetails.svelte'
+	import TaskTitle from '../components/TaskTitle.svelte'
+	import AddTask from '../components/AddTask.svelte'
+	import Task from '../components/Task.svelte'
+	import TaskDetails from '../components/TaskDetails.svelte'
 
 	// states
 	import { tasksData } from './stores.js'
