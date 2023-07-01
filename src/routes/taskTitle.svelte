@@ -1,6 +1,6 @@
 <script lang='ts'>
   // states
-  import { taskDetailsVisible, currentTaskBlock } from './stores.js'
+  import { taskDetailsVisible, currentTaskBlock, editingCurrentTask, titleValue, tagsValue, priorityValue } from './stores.js'
 
   // icons
   import addIcon from '$lib/assets/add.svg'
@@ -10,6 +10,10 @@
   export let bgColor: string;
 
   const handleAddTask = () => {
+    titleValue.set('')
+    tagsValue.set('')
+    priorityValue.set('no priority')
+    editingCurrentTask.set(false)
     taskDetailsVisible.set(true)
     currentTaskBlock.set(title)
   }
