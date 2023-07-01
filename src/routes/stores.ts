@@ -1,6 +1,9 @@
 import { writable, type Writable } from "svelte/store";
-// icons
-import tickIcon from '$lib/assets/tick.svg'
+
+  // icons
+  import tickIcon from '$lib/assets/tick.svg'
+  import doingIcon from '$lib/assets/doing.svg'
+  import greenTick from '$lib/assets/greenTick.svg'
 
 // global states
 export const taskDetailsVisible = writable(false);
@@ -25,30 +28,40 @@ export let tasksData: Writable<{
       {
         id: "1",
         icon: tickIcon,
-        title: 'connect with team on zoom for discussion',
-        tags: ['off track'],
-        priority: 'No Priority',
-        time: 'Today, 5:00 pm',
+        title: 'Add Tasks By Clicking on + button',
+        tags: ['tags-here'],
+        priority: 'priority',
+        time: `${new Date()}`,
       },
-      {
-        id: "2",
-        icon: tickIcon,
-        title: '2 connect with team on zoom for discussion',
-        tags: ['off track'],
-        priority: 'No Priority',
-        time: 'Today, 6:00 pm',
-      }
     ]
   },
   {
     title: 'doing', 
     bgColor: 'bg-yellow-200',
-    items: []
+    items: [
+      {
+        id: "2",
+        icon: doingIcon,
+        title: 'Add Tasks By Clicking on + button',
+        tags: ['tags-here'],
+        priority: 'priority',
+        time: `${new Date()}`,
+      },
+    ]
   },
   {
     title: 'done', 
     bgColor: 'bg-green-300',
-    items: []
+    items: [
+      {
+        id: "3",
+        icon: greenTick,
+        title: 'Add Tasks By Clicking on + button',
+        tags: ['tags-here'],
+        priority: 'priority',
+        time: `${new Date()}`,
+      },
+    ]
   },
 ]);
 export const titleValue = writable<string>();
