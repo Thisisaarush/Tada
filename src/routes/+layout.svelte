@@ -1,10 +1,10 @@
 <script>
-	import Header from '../routes/header.svelte'
+	// import Header from '../routes/header.svelte'
 	import '../app.css'
 </script>
 
 <div>
-	<Header />
+	<!-- <Header /> -->
 	<main>
 		<slot />
 	</main>
