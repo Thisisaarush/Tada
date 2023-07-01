@@ -1,5 +1,6 @@
 <script>
   import moment from 'moment'
+  import githubIcon from '$lib/assets/github.svg'
 
   const day = moment().format('dddd') + " " + moment().format('MMMM DD')
 </script>
@@ -8,9 +9,13 @@
   <ul class='flex gap-2 items-center justify-center border rounded-2xl py-2 sm:px-4 backdrop-blur-md w-[95%] sm:w-fit max-w-xl'>
     <a href="/" class="uppercase font-bold text-2xl py-2 px-4 rounded-md">Tada.</a>
     <li class="text-xl">|<li/>
-    <a href="/pomo" class="capitalize text-lg px-4 py-2 rounded-md hover:bg-gray-100">pomo</a>
-    <a href='/stopwatch' class="capitalize text-lg px-4 py-2 rounded-md hover:bg-gray-100">stopwatch</a>
-    <a href="/calendar" class="hidden sm:block capitalize text-lg px-4 py-2 rounded-md hover:bg-gray-100">Calendar</a>
+    <a
+    href="https://github.com/Thisisaarush/Tada"
+    target="_blank"
+    class="bg-black p-1 mx-4 rounded-lg hover:bg-black/70"
+  >
+    <img src={githubIcon} alt="github" />
+  </a>
   </ul>
   <p class="uppercase tracking-[0.475rem] text-gray-500 text-sm">{day}</p>
 </header>
