@@ -26,7 +26,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@sveltejs/adapter-vercel": "^3.0.1",
     "moment": "^2.29.4",
     "uuid": "^9.0.0"
   }
